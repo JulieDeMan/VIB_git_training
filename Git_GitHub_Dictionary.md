@@ -110,19 +110,13 @@ project should always have:
 
 - **.gitignore**: sometimes you want all your files in a certain folder, eg. fasta files etc. but you do not want to create snapshots for them. Files listed in **.gitignore** cannot be staged and commited, you are not tracking them. `git status` will ignore the files in the **.gitignore** file. This file can be in your local repo as well but you can make git also ignore this file by adding **.gitignore** inside **.gitignore**.
   
-<<<<<<< HEAD
   ! if you commited it before with all the files: delete it in GitHub and tick 'commit stages', then it is gone in GitHub => `git pull` => `git push`: **.gitignore** is not is not pushed to github
-=======
-  ! if you commited it before with all the files: delete it in GitHub and tick 'commit stages', then it is gone in GitHub => `git pull` => `git push`: **.gitignore** is not pushed
-  
-  
-  
-   is not pushed to github
->>>>>>> b34646a80cd77d88f697bd0d62462b0d2bd19df7
   
   ! if you commited it before on its own you can undo the commit
   
   ! if you staged but not committed it, you can do `git reset <file>` 
+  
+  this gave a lot of issues with pulling and pushing: `git checkout` solved it 
 
 connect to remote repo: `git remote add <name> <ssh>`
 
