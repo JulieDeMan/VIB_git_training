@@ -56,6 +56,12 @@ GitHub: online <=> git: on your computer
 
 `git status` will allow me to check what files are changed, unstaged and untracked 
 
+- to be staged: you have commited it before, made new changes but git recognizes that the new changes are not yet `add`ed or `commit`ed
+
+- to be comitted: you have commited the file before, made new changes and git recognizes that you have `add`ed but not yet `commit`ed
+
+- untracked: is a completely new file/folder that has never been `add`ed or `commit`ted
+
 ## Conceptual areas
 
 ### 01. Development area
