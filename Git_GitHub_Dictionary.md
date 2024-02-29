@@ -116,7 +116,7 @@ project should always have:
   
   ! if you staged but not committed it, you can do `git reset <file>` 
   
-  this gave a lot of issues with pulling and pushing: `git checkout` solved it 
+  this gave a lot of issues with pulling and pushing: `git checkout` and `git rebase --abort` solved it 
 
 connect to remote repo: `git remote add <name> <ssh>`
 
