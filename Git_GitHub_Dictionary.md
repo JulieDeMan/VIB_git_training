@@ -30,9 +30,9 @@ messages should be informative: Why change, how adress issue, effects of the cha
 
         add commit message to the end of this file and save
 
-Ungit: tracks that a file is changed (saved on your computer) but it is not saved in git
+*Ungit: tracks that a file is changed (saved on your computer) but it is not saved in git*
 
-without commits: file is changed but there is not anything yet in `.git`
+*without commits: file is changed but there is not anything yet in* `.git`
 
 create first timepoint: `git add Git_GitHub_Dictionary.md`
 
@@ -95,6 +95,8 @@ check if there is already an initialized `.git` repo there, so that you dont ini
 ## Traveling through the timeline
 
 `git show commitID1 commitID2`
+
+ shows the full files
 
 alterntive: `git diff commitID1 commitID2`
 

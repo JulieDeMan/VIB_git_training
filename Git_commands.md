@@ -17,6 +17,12 @@
 - `git status` track where files are, in what conceptual area
 
 - `git log` check all your commit messages
+  
+  - `git log -n N`
+  
+  - `git log --help`
+  
+  - `git log --abbrev`
 
 - `git show commitID1 commitID2` compares commits by showing the files separately 
 
