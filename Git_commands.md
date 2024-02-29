@@ -12,4 +12,6 @@ set up user profile, every time you start a new project:
 
 `git commit -m 'message'` adds timestamp to the local `.git` repo
 
+`git config --list` shows the configs of your project like user name and e-mail
 
+`git status` track where files are
