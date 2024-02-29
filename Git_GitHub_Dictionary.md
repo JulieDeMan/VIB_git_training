@@ -82,6 +82,8 @@ place where you dump the things before sending to local `.git` repo
 
 so first `git add` and then `git commit`
 
+staging area as an organisation point: commiting all at once may be too confusing. You can commit in multiple parts and add specific messages for each of the commits. 
+
 ### 03. Local repository
 
 the .git folder, where the snapshots are saved, where your timeline is 
@@ -92,7 +94,7 @@ check if there is already an initialized `.git` repo there, so that you dont ini
 
 `git commit` sends the snapshot to the local repo 
 
-### 04. Repote repository
+### 04. Remote repository
 
 https://github.com
 
@@ -104,9 +106,27 @@ github: limited upload, no data repo
 
 project should always have:
 
-- `README.md`: information about the project
+- **README.md**: information about the project, code, main goals, usage, data links etc.
 
-- `.gitignore`: sometimes you want all your files in a certain folder, eg. fasta files etc. but you do not want to create snapshots for them. Files listed in `.gitignore` cannot be staged and commited, you are not tracking them. `git status` will ignore the files in the `.gitignore` file.
+- **.gitignore**: sometimes you want all your files in a certain folder, eg. fasta files etc. but you do not want to create snapshots for them. Files listed in **.gitignore** cannot be staged and commited, you are not tracking them. `git status` will ignore the files in the **.gitignore** file. This file should be in your local repo as well. 
+
+connect to remote repo: `git remote add <name> <ssh>`
+
+! ssh is *NOT YOUR* ssh key but the ssh key of the *PROJECT* !
+
+**ssh** link when you are contributing and working on it
+
+**https** when you are just using the repo
+
+only commits can cross the bridge to the remote repo
+
+Example: `git remote add folder_link git@github.com:JulieDeMan/VIB_git_training.git`
+
+**NOTE**: should set up a password for the key (**<mark>TO DO</mark>**)
+
+`git push`: put it on github
+
+first: `git push --set-upstream folder_link main` to avoid fatal error
 
 ## Traveling through the timeline
 

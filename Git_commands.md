@@ -30,4 +30,6 @@
 
 - `git reset filename` will unstage your file
 
-- 
+- `git remote add <name> <ssh>` make connection between the local and remote repo's
+
+- `git rm <file>` removes files (requires commit afterwards)
