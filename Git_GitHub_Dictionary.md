@@ -62,6 +62,8 @@ GitHub: online <=> git: on your computer
 
 - untracked: is a completely new file/folder that has never been `add`ed or `commit`ted
 
+track your messages: in `.git/logs/HEAD`
+
 ## Conceptual areas
 
 ### 01. Development area
