@@ -92,12 +92,28 @@ check if there is already an initialized `.git` repo there, so that you dont ini
 
 `git commit` sends the snapshot to the local repo 
 
+### 04. Repote repository
+
+https://github.com
+
+used as a backup: .git is your local repo so is not kept if your pc crashes
+
+create new repo under repositories on github
+
+github: limited upload, no data repo
+
+project should always have:
+
+- `README.md`: information about the project
+
+- `.gitignore`: sometimes you want all your files in a certain folder, eg. fasta files etc. but you do not want to create snapshots for them. Files listed in `.gitignore` cannot be staged and commited, you are not tracking them. `git status` will ignore the files in the `.gitignore` file.
+
 ## Traveling through the timeline
 
 `git show commitID1 commitID2`
 
- shows the full files
+        shows the full files
 
 alterntive: `git diff commitID1 commitID2`
 
-   shows line by line what is happening, is really comparing 
+       shows line by line what is happening, is really comparing 

@@ -28,6 +28,6 @@
 
 - `git diff commitID1 commitID2`compares commits side by side
 
-- 
+- `git reset filename` will unstage your file
 
 - 
