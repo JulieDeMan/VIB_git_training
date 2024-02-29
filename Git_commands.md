@@ -15,3 +15,13 @@
 - `git config --list` shows the configs of your project like user name and e-mail
 
 - `git status` track where files are, in what conceptual area
+
+- `git log` check all your commit messages
+
+- `git show commitID1 commitID2` compares commits by showing the files separately 
+
+- `git diff commitID1 commitID2`compares commits side by side
+
+- 
+
+- 

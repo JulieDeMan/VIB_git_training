@@ -26,6 +26,10 @@ messages should be informative: Why change, how adress issue, effects of the cha
 
 `git commit -m 'message'`
 
+        when not adding `-m`, editor will open (set up editor: `git config --global core.editor nano`)
+
+        add commit message to the end of this file and save
+
 Ungit: tracks that a file is changed (saved on your computer) but it is not saved in git
 
 without commits: file is changed but there is not anything yet in `.git`
@@ -64,6 +68,8 @@ GitHub: online <=> git: on your computer
 
 track your messages: in `.git/logs/HEAD`
 
+easier alternative: `git log`
+
 ## Conceptual areas
 
 ### 01. Development area
@@ -84,6 +90,12 @@ the .git folder, where the snapshots are saved, where your timeline is
 
 check if there is already an initialized `.git` repo there, so that you dont initialize another one
 
-`git commit` sends the snapshot to the local repo
+`git commit` sends the snapshot to the local repo 
 
-### 
+## Traveling through the timeline
+
+`git show commitID1 commitID2`
+
+alterntive: `git diff commitID1 commitID2`
+
+   shows line by line what is happening, is really comparing 
