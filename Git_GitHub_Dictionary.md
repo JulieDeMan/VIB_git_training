@@ -54,7 +54,7 @@ GitHub: online <=> git: on your computer
 
 ## Tracking
 
-`git status` will allos me to check what files are unstaged and untracked 
+`git status` will allow me to check what files are changed, unstaged and untracked 
 
 ## Conceptual areas
 
@@ -79,5 +79,3 @@ check if there is already an initialized `.git` repo there, so that you dont ini
 `git commit` sends the snapshot to the local repo
 
 ### 
-
-
