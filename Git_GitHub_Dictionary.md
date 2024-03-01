@@ -177,3 +177,12 @@ when reverting: editor will pop up and need to also add commit message
 ## Collaboration
 
 settings => collaborators => add nickname or email => accept invite => now the invited person has push rights
+how to work with git branch
+Besides the possibility of making branches on GitHub, we can also do it locally on our computer. As we’ve made changes to the repository on GitHub, we’ll start with pulling the changes into our local repository. Use git pull in your project folder.
+
+There is always an indication in the Terminal or Git Bash of which branch we are in (i.e. main). Here are the most important commands related to making branches and switching between different branches:
+
+Listing all the existing branches is possible with git branch -a
+git checkout -b <new-branch>: will create a new branch and move into this branch.
+git branch <new-branch>: will create a new branch, but will remain in the current branch (i.e. the main branch in this case)
+With git checkout <branch> we will switch from one branch to the other.
