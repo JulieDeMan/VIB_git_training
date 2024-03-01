@@ -159,3 +159,19 @@ last commit = `HEAD`
     before reverting: need everything staged and commited 
 
 when reverting: editor will pop up and need to also add commit message
+
+## Troubleshooting
+
+- add and commit something that you don't want, `git revert HEAD` brings you to the previous state 
+  
+  - example: if you added something to a file => git add => git 
+
+
+
+- repo is deleted:
+  
+  - `git clone <project_ssh>` 
+  
+  - the ssh link sets up the local bridge
+  
+  - if you would use the url/https => use this for projects you want to use but not edit (will not allow you to push)
