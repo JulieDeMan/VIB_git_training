@@ -152,4 +152,8 @@ last commit = `HEAD`
 
     when reverting: `HEAD~3` = the 4th last commit
 
+    before reverting: need everything staged and commited 
+
+when reverting: editor will pop up and need to also add commit message
+
 
