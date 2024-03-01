@@ -142,6 +142,10 @@ Example: `git remote add folder_link git@github.com:JulieDeMan/VIB_git_training.
 
 first: `git push --set-upstream folder_link main` to avoid fatal error
 
+`git push origin --all` to push all updated branches at once
+
+**Trick**: go to file in github and press '.' => online vscode will open
+
 ## Traveling through the timeline
 
 `git show commitID1 commitID2`
@@ -177,6 +181,42 @@ when reverting: editor will pop up and need to also add commit message
   - if you would use the **url/https** => use this for projects you want to use but not edit (will not allow you to push)
 
 - failing to push: can be that you dont have remote files (files that are in github are not locally) => to solve this you can pull of push again but can lead to issues
+
+- changed file in local repo and changed file in GitHub (remote repo):
+  
+  - commit and push in GitHub (using online vscode)
+  
+  - try to push from local repo (after staging and committing ofc.)
+  
+  - git in terminal local says: first do git pull
+  
+  - another issue pops up: conflict and branch problem `You have divergent branches and need to specify how to reconcile them.`
+  
+  - do `git config pull.rebase false`
+  
+  - `git pull` now results in: `Auto-merging Git_commands.md`
+    
+    `CONFLICT (content): Merge conflict in Git_commands.md`
+    
+    `Automatic merge failed; fix conflicts and then commit the result.`
+  
+  - now in the file you have both versions with info which one comes from where
+    
+    - <<<<<<< HEAD
+      
+      adding unintentional conflict - doc 1
+      
+      =======
+      
+      add new text to create conflict - doc 2
+      
+      '>>>>>>>>> '5ccf97681334c7bbd30b20fb51551f294f1beeee
+  
+  - manually delete it locally => save => stage => commit => push => is fixed
+
+- conflict by merging: `git merge <branch_name>`
+  
+  - solve in a similar way as above
 
 ## Collaboration
 
@@ -235,3 +275,9 @@ when going then back to the main/master branch and listing all the branches, you
     detached heads can also be created by other, unexplainable ways
 
 **NOTE**: detached heads without branch will not be found back by listing branches
+
+### merge branches
+
+merging branches: `git merge <branch_name>`
+
+the `<branch_name>` will be added to the branch you are on
