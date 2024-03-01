@@ -186,3 +186,23 @@ Listing all the existing branches is possible with git branch -a
 git checkout -b <new-branch>: will create a new branch and move into this branch.
 git branch <new-branch>: will create a new branch, but will remain in the current branch (i.e. the main branch in this case)
 With git checkout <branch> we will switch from one branch to the other.
+
+## Branching
+
+branches correspond to different timelines (but can be merged back)
+
+connection between branches: latest common point
+
+`git branch <branch_name>`
+
+OG branch = master/main
+
+`git log` will show you the commits of the branch you re in
+
+`git checkout <branch_name>` lets you choose your branch
+
+   ! you can move between branches but also between commits
+
+make new branch: `git branch <branch_name>` and then `git checkout <branch_name>`
+
+list al branches by doing `git branch --list`
