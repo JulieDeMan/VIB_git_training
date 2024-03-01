@@ -119,12 +119,8 @@ project should always have:
   this gave a lot of issues with pulling and pushing: `git checkout` and `git rebase --abort` solved it 
   
   ! `git push` => remove file in GitHub => `git pull` => file will now also be deleted locally => if then `git revert HEAD`, file will be back
-  
-  
-  
-  **NOTE**: should not edit and commit both locally and online, then the pushing and pulling will give issues
-  
-  
+
+**NOTE**: should not edit and commit both locally and online, then the pushing and pulling will give issues
 
 connect to remote repo: `git remote add <name> <ssh>`
 
