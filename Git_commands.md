@@ -43,3 +43,5 @@
 - `git reset <file>` if you staged but not committed, and you want to unstage
 
 - `git revert` revert commits
+
+- 
