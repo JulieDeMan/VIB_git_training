@@ -208,3 +208,5 @@ make new branch: `git branch <branch_name>` and then `git checkout <branch_name>
 list al branches by doing `git branch --list`
 
 staging and commiting stays the same, you are now working on a separate branch
+
+**NOTE**: the file version you will see on the pc will depend on the branch you are in
