@@ -55,3 +55,5 @@
 - `git checkout <branch_name>` and `git checkout <past_commit_id>`: switch branch/previous commit
 
 - `git switch -`: prevents you from creating a detached head, undoes it
+
+- `git merge <branch_name>`: merges branch `<branch_name>` with the branch you are working in
