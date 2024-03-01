@@ -164,14 +164,16 @@ when reverting: editor will pop up and need to also add commit message
 
 - add and commit something that you don't want, `git revert HEAD` brings you to the previous state 
   
-  - example: if you added something to a file => git add => git 
+  - example: if you added something to a file => `git add` => `git commit` => regret what you added so `git revert HEAD` => what you added is gone
 
-
-
-- repo is deleted:
+- repo is deleted locally but is still in GitHub:
   
   - `git clone <project_ssh>` 
   
-  - the ssh link sets up the local bridge
+  - the **ssh link** sets up the local bridge (no need for doing `git init`, `git remote` etc.)
   
-  - if you would use the url/https => use this for projects you want to use but not edit (will not allow you to push)
+  - if you would use the **url/https** => use this for projects you want to use but not edit (will not allow you to push)
+
+## Collaboration
+
+settings => collaborators => add nickname or email => accept invite => now the invited person has push rights
