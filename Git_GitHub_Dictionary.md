@@ -281,3 +281,13 @@ when going then back to the main/master branch and listing all the branches, you
 merging branches: `git merge <branch_name>`
 
 the `<branch_name>` will be added to the branch you are on
+
+    this might create conflicts but these can be solved similar to how you solve the file conflicts
+
+## Tagging
+
+`git tag <give_it_a_name>`
+
+if you tag a commit, you can go back to that commit by doing `git checkout <tag_name>` instead of doing `git checkout <commit_id>`
+
+it will add the tag to the 'place you are'
