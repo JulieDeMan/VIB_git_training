@@ -291,3 +291,25 @@ the `<branch_name>` will be added to the branch you are on
 if you tag a commit, you can go back to that commit by doing `git checkout <tag_name>` instead of doing `git checkout <commit_id>`
 
 it will add the tag to the 'place you are'
+
+with this, you can tag an earlier version and people can use it via getting it from github
+
+to use a specific tag: download the files manually or clone the whole repo and checkout to that specific tag to use it
+
+## Forking
+
+another way of working in someone elses repo and not messing it up 
+
+but in the end if you have made some good changes, you can ask them to incorporate it 
+
+you add/copy it to your GitHub and you own it => need to still clone it to get it locally
+
+    difference with clone: you make a local copy
+
+in GitHub repo: fork 
+
+    will look like you are creating a new project but you are actually just copying someone elses project
+
+then clone to your local machine
+
+can check if someone forked your project and if they are working on it (see: active/inactive)
