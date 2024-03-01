@@ -55,3 +55,7 @@
 - `git checkout <branch_name>` and `git checkout <past_commit_id>`: switch branch/previous commit
 
 - `git switch -`: prevents you from creating a detached head, undoes it
+
+
+
+adding unintentional conflict - doc 1
