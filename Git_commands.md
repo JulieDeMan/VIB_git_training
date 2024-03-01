@@ -4,7 +4,7 @@
 
 - `git add` puts files in the staging areas
 
-- set up user profile, every time you start a new project: 
+- set up user profile, every time you start a new project:
   
   - `git config --global user.email "julie.de.man@skynet.be"`
   
@@ -26,7 +26,7 @@
   
   - `git log --abbrev`
 
-- `git show commitID1 commitID2` compares commits by showing the files separately 
+- `git show commitID1 commitID2` compares commits by showing the files separately
 
 - `git diff commitID1 commitID2`compares commits side by side
 
@@ -44,4 +44,14 @@
 
 - `git revert` revert commits
 
-- 
+- `git clone <project_ssh>`: sets up connection to an existing project and you
+
+- `git branch <branch_name>`: creates a new branch
+  
+  - `git branch --list`: lists all branches
+  - `git switch -c <name>`: creates branch from the detached head
+  - `git branch <newbranch_name> <detached_head_id>` : creates branch from the detached head
+
+- `git checkout <branch_name>` and `git checkout <past_commit_id>`: switch branch/previous commit
+
+- `git switch -`: prevents you from creating a detached head, undoes it
