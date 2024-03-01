@@ -9,6 +9,8 @@
   - `git config --global user.email "julie.de.man@skynet.be"`
   
   - `git config --global user.name "Julie DM"`
+  
+  - `git config --global core.editor nano`
 
 - `git commit -m 'message'` adds timestamp to the local `.git` repo
 
@@ -33,3 +35,11 @@
 - `git remote add <name> <ssh>` make connection between the local and remote repo's
 
 - `git rm <file>` removes files (requires commit afterwards)
+
+- `git push` push what is in .git to GitHub
+
+- `git pull` gets changes you made in GitHub (online)
+
+- `git reset <file>` if you staged but not committed, and you want to unstage
+
+- `git revert` revert commits

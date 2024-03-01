@@ -36,7 +36,7 @@ messages should be informative: Why change, how adress issue, effects of the cha
 
 create first timepoint: `git add Git_GitHub_Dictionary.md`
 
-`git commit -m "brief description of differences between git and github and how to get started with git"`
+`git commit -m "meaningfull message"`
 
 output: 
 
@@ -145,3 +145,11 @@ first: `git push --set-upstream folder_link main` to avoid fatal error
 alterntive: `git diff commitID1 commitID2`
 
        shows line by line what is happening, is really comparing 
+
+reverting commits: `git revert`
+
+last commit = `HEAD`
+
+    when reverting: `HEAD~3` = the 4th last commit
+
+
