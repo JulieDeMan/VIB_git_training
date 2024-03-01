@@ -56,6 +56,4 @@
 
 - `git switch -`: prevents you from creating a detached head, undoes it
 
-
-
-adding unintentional conflict - doc 1
+SOLVED THE CONFLICT
